@@ -90,8 +90,8 @@ public class ProductRESTTest {
     public static Object[][] mydata() {
         return new Object[][]{
                 {"12", "Cable"},
-                {"122", "Desk"},
-                {"9", "9"},
+                {"1226", "Desk"},
+                {"9", "97"},
                 {"5", "TV set"}
         };
     }
