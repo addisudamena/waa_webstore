@@ -31,7 +31,7 @@ public class BankAccountRESTTest {
                 .body("accountnumber",equalTo(667))
                 .body("accountHolder",equalTo("Joe Smith"))
                 .body("balance",equalTo(0.0f));
-        //cleanup
+        //cleanup the intry
         given()
                 .when()
                 .delete("accounts/667");
